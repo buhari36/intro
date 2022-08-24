@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%) ;
+    max-width: 1440px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 80px 0;
+}
+.left{
+    width: 700px;
+    padding: 100px 30px;
+}
+h1{
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 10px 0;
+}
+p{
+    color: rgb(246, 249, 252);
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 770px;
+    background-color: white;
+    height: 55vh;
+    border-radius: 5px;
+}
+input{
+    display: block;
+    width: 92%;
+    border-radius: 5px;
+    border: 1px lightgray solid;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+.bin{
+    width: 100%;
+    padding: 10px 0;
+    background-color: hsl(248, 32%, 49%);
+    border: 1px transparent solid;
+    border-radius: 3px;
+    color: white;
+    margin-bottom: 20px;
+}
+small{
+    padding: 0 100px;
+}
+span{
+    color: hsl(0, 100%, 74%);
+}
+.btn{
+    width: 100%;
+    padding: 10px 0;
+    background-color: hsl(154, 59%, 51%);
+    border: 1px transparent solid;
+    border-radius: 3px;
+    color: white;
+    margin: 20px 0;
+}
